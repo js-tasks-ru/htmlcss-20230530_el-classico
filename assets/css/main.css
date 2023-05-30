@@ -21,4 +21,64 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: var(--red);
+    text-align: center;
+    padding-top: 35px;
+}
+
+.header_h1 {
+    padding-bottom: 35px;
+}
+
+.header_nav {
+    background: orange;
+    text-decoration: none;
+    list-style-type: none;
+    height: 80px;
+    font-size: 30px;
+
+}
+
+.header_nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main {
+    background-color: green;
+    min-height: calc(100vh - 250px);
+}
+
+.arcticle {
+    background-color: blue;
+    color: wheat;
+    margin: 0 20px 15px 20px;
+
+}
+
+.article-second {
+    margin-bottom: 0;
+}
+
+.article_ul,
+.article_ol {
+    padding-left: 50px;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    min-height: 80px;
+
 }
