@@ -1,5 +1,6 @@
 /* Стилизация аккордеона */
-.accordion {
+
+.accordion__item {
     max-width: 730px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -7,38 +8,39 @@
     margin-bottom: 8px;
     cursor: pointer;
     position: relative;
+    padding: 24px 0 16px 32px;
 }
 
-.accordion::before {
-    content:url(../../assets/images/accordion_arrow.svg);
+.accordion__item::before {
+    content: url(../../assets/images/accordion_arrow.svg);
     position: absolute;
-    right: 20px;
-    top: 18px;
+    right: 32px;
+    top: 32px;
 }
-.accordion[open]::before{
-    content:url(../../assets/images/accordion_arrow.svg);
-    display: inline-block;
+
+.accordion__item[open]::before {
+    content: url(../../assets/images/accordion_arrow.svg);
     transform: rotate(180deg);
 }
 
 
-.accordion:last-child {
+.accordion__item:last-child {
     margin-bottom: 0px;
+}
+
+.accordion__summary {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    display: flex;
 }
 
 .accordion__summary::-webkit-details-marker {
     display: none;
 }
 
-
-.accordion__visiable-text {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--black);
-
-}
 
 .accordion__hidden-text {
     font-family: 'Inter';
