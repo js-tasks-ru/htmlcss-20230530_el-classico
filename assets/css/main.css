@@ -13,9 +13,13 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary-hover: #2342C0;
+
     --secondary: var(--purple);
+    --secondary-hover: #5028C6;
 }
