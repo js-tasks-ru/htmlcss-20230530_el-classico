@@ -3,11 +3,10 @@
 .accordion__item {
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding-left: 30px;
     margin-bottom: 8px;
     cursor: pointer;
     position: relative;
-    padding: 24px 0 16px 32px;
+    padding: 24px 49px 16px 32px;
 }
 
 .accordion__item::before {
