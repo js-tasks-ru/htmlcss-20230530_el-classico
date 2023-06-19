@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 16px 24px 24px 24px;
 }
 
 .histogram__text {
@@ -12,10 +13,8 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--black);
-
-}
-.histogram__text_opacity{
     opacity: 0.8;
+
 }
 
 .histogram__orders {
@@ -28,20 +27,19 @@
 .histogram__link {
     text-decoration: none;
     color: var(--primary);
+    opacity: 1;
     
 }
 
 .histogram__content {
     display: flex;
     justify-content: space-between;
-    margin: 16px 24px 0 16px;
 }
 
 .histogram__chart {
     display: flex;
     flex-wrap: wrap-reverse;
     height: 50px;
-    margin: 39px 29px 24px 26px;
     gap: 1px;
 
 
