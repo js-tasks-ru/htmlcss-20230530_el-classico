@@ -4,9 +4,6 @@
     cursor: pointer;
 }
 
-.tooltip__icon {
-    padding-top: 9px;
-}
 
 .tooltip__bubble {
     background: var(--primary);
@@ -21,8 +18,9 @@
     display: none;
     position: absolute;
     white-space: nowrap;
-    bottom: 100%;
-    transform: translateX(-40%);
+    bottom: calc(100% + 9px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tooltip__bubble::after {
