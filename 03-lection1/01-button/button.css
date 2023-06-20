@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 .button {
-    padding: 14.5px 66px;
+    padding: 15px 66px 14px;
     border-radius: 8px;
     border: none;
     background-color: transparent;
@@ -36,7 +36,6 @@
 }
 
 .button_alternate {
-    padding: 13.5px 66px;
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
 }
