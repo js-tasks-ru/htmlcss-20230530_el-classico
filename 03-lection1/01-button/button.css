@@ -1,6 +1,7 @@
 /* Стилизация кнопки */
 .button {
     padding: 15px 66px 14px;
+    height: 48px;
     border-radius: 8px;
     border: none;
     background-color: transparent;
