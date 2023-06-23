@@ -1,8 +1,12 @@
-.main{
-    height: 1036px;
+.main {
     background: #F9FAFC;
     border-top: 1px solid #DDE2E5;
     border-bottom: 1px solid #DDE2E5;
+}
 
-
+.main__inner {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 68px 0 204px;
 }

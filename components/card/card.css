@@ -1,0 +1,21 @@
+.card {
+    width: 350px;
+    height: 367px;
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card__name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: var(--black);
+    margin: 0 auto 30px auto;
+    padding-top: 312px;
+
+}
