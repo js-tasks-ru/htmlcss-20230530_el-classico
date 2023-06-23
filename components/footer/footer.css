@@ -22,3 +22,12 @@
     max-width: 640px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 992px) {
+    .footer__title{
+        color: var(--gray-4, #495057);
+        font-size: 28px;
+        font-family: 'Inter';
+        line-height: 38px;
+    }
+}
