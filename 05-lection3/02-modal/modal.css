@@ -1,7 +1,7 @@
 .modal-window {
   background: rgba(196, 196, 196, 0.5);
   display: none;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -13,8 +13,8 @@
   border-radius: 8px;
   opacity: 1;
   max-width: 428px;
-  position: fixed;
-  top: 40%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 30px 40px 33px 40px;
@@ -23,18 +23,18 @@
 }
 
 
-.modal-window__heading{
+.modal-window__heading {
   font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-color: #334D6E;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334D6E;
 
 
 }
 
-.modal-window__text{
+.modal-window__text {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -43,7 +43,8 @@ color: #334D6E;
   color: var(--grey-4);
 
 }
-.modal-window__close{
+
+.modal-window__close {
   cursor: pointer;
   position: absolute;
   right: 15px;
