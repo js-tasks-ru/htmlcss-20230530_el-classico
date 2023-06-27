@@ -25,9 +25,8 @@
 
 @media screen and (max-width: 992px) {
     .footer__title{
-        color: var(--gray-4, #495057);
+        color: var(--grey-4);
         font-size: 28px;
-        font-family: 'Inter';
         line-height: 38px;
     }
 }

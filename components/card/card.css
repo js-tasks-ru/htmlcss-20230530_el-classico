@@ -6,6 +6,7 @@
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 
 }
 
@@ -16,7 +17,6 @@
     line-height: 25px;
     color: var(--black);
     text-align: center;
-    margin-top: 312px;
 
 }
 
