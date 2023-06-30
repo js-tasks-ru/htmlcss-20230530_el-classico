@@ -4,6 +4,11 @@
     cursor: pointer;
 }
 
+.tooltip__icon{
+    width: 25px;
+    height: 25px;
+}
+
 
 .tooltip__bubble {
     background: var(--primary);
