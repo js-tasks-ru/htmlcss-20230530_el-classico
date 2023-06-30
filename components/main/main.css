@@ -1,7 +1,7 @@
 .main {
     background: #F9FAFC;
-    border-top: 1px solid #DDE2E5;
-    border-bottom: 1px solid #DDE2E5;
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
 }
 
 .main__inner {
@@ -22,4 +22,12 @@
     column-gap: 56px;
     padding-top: 36px;
     padding-bottom: 0;
+}
+
+@media screen and (max-width:1109px) {
+    .main__inner {
+        justify-content: space-around; 
+        gap: 16px;
+        padding: 21px 0 133px;
+    }
 }
