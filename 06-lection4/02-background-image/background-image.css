@@ -1,0 +1,33 @@
+/* mobile first */
+.img {
+    background-image: url(./public/forest_400.jpg);
+    width: 1000px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* tablets */
+@media screen and (min-width:768px) {
+    .img {
+        background-image: url(./public/forest_768.jpg);
+    }
+}
+
+/*Monitor  */
+@media screen and (min-width:1024px) {
+    .img {
+        background-image: url(./public/forest_1024.jpg);
+        background-size: cover; 
+   }
+
+}
+/* extra large devices */
+@media screen and (min-width:1440px) {
+    .img {
+        background-image: url(./public/forest_2560.jpg);
+        background-size: cover;
+    }
+
+}
