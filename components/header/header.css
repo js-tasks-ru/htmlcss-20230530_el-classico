@@ -6,3 +6,13 @@
     line-height: 64px;
     color: var(--black);
 }
+
+.header_template {
+    height: 82px;
+}
+
+@media screen and (max-width: 992px) {
+    .header_template {
+        background: #F9FAFC;
+    }
+}
