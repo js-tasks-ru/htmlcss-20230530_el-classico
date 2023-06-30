@@ -6,6 +6,31 @@
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
+        <label class="radio">
+            <input class="radio__input" type="radio">
+            <div class="radio__state">
+            <div class="radio__control">
+                <div class="radio__control-inner"></div>
+            </div>
+            <div class="radio__label">Default</div>
+        </label>
 
+        <label class="radio">
+            <input class="radio__input" checked type="radio">
+            <div class="radio__state">
+            <div class="radio__control">
+                <div class="radio__control-inner"></div>
+            </div>
+            <div class="radio__label">Selected</div>
+        </label>
+
+        <label class="radio">
+            <input class="radio__input" type="radio" disabled>
+            <div class="radio__state">
+            <div class="radio__control">
+                <div class="radio__control-inner"></div>
+            </div>
+            <div class="radio__label">Disabled</div>
+        </label>
     </body>
 </html>
