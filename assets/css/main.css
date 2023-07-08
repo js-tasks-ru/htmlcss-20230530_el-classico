@@ -8,7 +8,7 @@
 @import '../../components/card/card.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../components/sidebar/sidebar.css';
-@import '../../pages/template.css';
+@import '../../components/component/component.css';
 
 :root {
     --white: #ffffff;

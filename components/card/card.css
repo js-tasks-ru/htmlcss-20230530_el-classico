@@ -21,27 +21,6 @@
 }
 
 
-.card_template {
-    width: 825px;
-    height: 746px;
-    display: flex;
-    flex-direction: column;
-    padding: 32px 0 0 48px;
-
-}
-
-.card__name_template {
-    font-size: 28px;
-    font-family: 'Inter';
-    line-height: 38px;
-    font-weight: 500;
-    font-size: 21px;
-    color: var(--grey-4);
-    align-self: flex-start;
-    margin: 0;
-    padding: 0;
-}
-
 
 
 @media screen and (max-width: 992px) {
@@ -59,9 +38,5 @@
         padding-top: 11px;
 
     }
-    .card__name_template {
-        color: var(--grey-4, #495057);
-        font-size: 20px;
-        line-height: 26px;
-    }
+    
 }
