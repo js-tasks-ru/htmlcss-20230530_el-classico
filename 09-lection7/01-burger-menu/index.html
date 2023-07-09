@@ -7,6 +7,33 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-
+        <button id="burger-menu-open" type="button">Open</button>
+        <div id="burger-menu" class="burger-menu">
+            
+            <div class="burger-menu__header">
+                <button id="burger-menu-close" class="" type="button">&times;</button>
+                <div class="burger-menu__logo">LOGO</div>
+            </div>
+            <div class="burger-menu__theme-changer">
+                <span class="burger-menu__theme-changer-title">
+                    Dark Mode
+                </span>
+                <div class="burger-menu__toggle">
+                    toggle
+                </div>
+            </div>
+            <nav class="burger-menu__nav">
+                <span class="burger-menu__nav-title">Components</span>
+                <ul class="burger-menu__list">
+                    <ul class="burger-menu__list-item"><a href="#" class="burger-menu__link">Modal</a></ul>
+                    <ul class="burger-menu__list-item "><a href="#" class="burger-menu__link burger-menu__link_active">Tooltip</a></ul>
+                    <ul class="burger-menu__list-item"><a href="#" class="burger-menu__link">Avatar</a></ul>
+                    <ul class="burger-menu__list-item"><a href="#" class="burger-menu__link">Calendar</a></ul>
+                    <ul class="burger-menu__list-item"><a href="#" class="burger-menu__link">Custom From elements</a></ul>
+                    <ul class="burger-menu__list-item"><a href="#" class="burger-menu__link">Histogram</a></ul>
+                </ul>
+                <span class=""><a href="#" class="burger-menu__link">Main page</a></span>
+            </nav>
+        </div>
     </body>
 </html>
