@@ -46,10 +46,13 @@
 }
 
 .text-field__input_error{
-    outline: 0;
     border-color: var(--error);
     background-image: url(../../assets/images/alert-triangle.svg);
     background-repeat: no-repeat;
     background-position: right 16px bottom 16px;
 
+}
+
+.text-field__input_error:focus{
+    border-color: var(--error);
 }
