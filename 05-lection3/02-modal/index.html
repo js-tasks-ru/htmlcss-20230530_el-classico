@@ -5,14 +5,22 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
         <title>Modal</title>
     </head>
 
     <body>
-        <button id="modal-open">Open</button>
+        <button id="modal-open" class="button button_primary">
+            Open
+        </button>
+
         <div id="modal" class="modal-window">
+
             <div class="modal-window__content">
-                <span id="modal-close" class="modal-window__close">&times;</span>
+
+                <svg id="modal-close" class="modal-window__close">
+                    <use href="../../assets/images/icons.svg#close"></use>
+                </svg>
                 <div class="modal-window__heading">
                     Modal title
                 </div>
