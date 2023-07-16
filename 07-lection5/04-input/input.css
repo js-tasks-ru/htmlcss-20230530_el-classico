@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    position: relative;
 }
 
 .text-field__label {
@@ -34,25 +35,28 @@
     filter: drop-shadow(0px 1px 1px rgba(51, 154, 240, 0.10));
 }
 
-.text-field__input_success{
-    background-image: url(../../assets/images/check-circle.svg);
-    background-repeat: no-repeat;
-    background-position: right 16px bottom 16px;
+
+.text-field_success::before{
+    content: url(../../assets/images/check-circle.svg);
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 1;
 }
 
-.text-field__input_success:focus{
-    outline: 0;
+.text-field_success > .text-field__input:focus{
     border-color: green;
 }
 
-.text-field__input_error{
-    border-color: var(--error);
-    background-image: url(../../assets/images/alert-triangle.svg);
-    background-repeat: no-repeat;
-    background-position: right 16px bottom 16px;
-
+.text-field_error::before{
+    content: url(../../assets/images/alert-triangle.svg);
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 1;
+    
 }
 
-.text-field__input_error:focus{
+.text-field_error > .text-field__input{
     border-color: var(--error);
 }
