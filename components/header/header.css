@@ -6,11 +6,17 @@
     color: var(--black);
 }
 
+
+
 @media screen and (max-width: 992px) {
     .header__title{
         color: var(--gray-4);
         font-size: 28px;
         font-family: 'Inter';
         line-height: 38px;
+    }
+
+    .header_template {
+        background: #F9FAFC;
     }
 }

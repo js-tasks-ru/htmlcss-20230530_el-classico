@@ -11,6 +11,19 @@
     padding: 68px 0 204px;
 }
 
+
+.main_template {
+    border: none;
+}
+
+.main_template-inner {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    column-gap: 56px;
+    padding-top: 36px;
+    padding-bottom: 0;
+}
+
 @media screen and (max-width:1109px) {
     .main__inner {
         justify-content: space-around; 
