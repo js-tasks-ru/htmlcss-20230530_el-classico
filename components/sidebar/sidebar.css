@@ -1,14 +1,3 @@
-.card__name_template {
-    font-size: 28px;
-    font-family: 'Inter';
-    line-height: 38px;
-    font-weight: 500;
-    font-size: 21px;
-    color: var(--grey-4);
-    align-self: flex-start;
-    margin: 0;
-    padding: 0;
-}
 
 .sidebar__heading {
     margin: 0;
