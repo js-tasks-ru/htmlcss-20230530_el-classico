@@ -47,6 +47,10 @@
 .modal-window__close {
   cursor: pointer;
   position: absolute;
-  right: 15px;
-  top: 15px;
+  cursor: pointer;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 12px;
+  top: 12px;
 }
