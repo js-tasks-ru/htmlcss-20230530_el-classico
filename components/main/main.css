@@ -16,7 +16,7 @@
     border: none;
 }
 
-.main__inner_template {
+.main_template-inner {
     display: grid;
     grid-template-columns: 230px 1fr;
     column-gap: 56px;

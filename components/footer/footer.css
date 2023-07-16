@@ -29,7 +29,7 @@
     padding-bottom: 56px;
 }
 
-.footer__title_template {
+.footer_template-title {
     color: var(--grey-3);
     font-size: 12px;
     font-weight: 500;
