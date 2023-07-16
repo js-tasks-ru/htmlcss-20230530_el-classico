@@ -47,6 +47,6 @@
 
 .button:active {
     transform: translateY(1px);
-    transition: transform 2s ease-in-out;
+    transition: transform 0.2s linear;
 
 }
