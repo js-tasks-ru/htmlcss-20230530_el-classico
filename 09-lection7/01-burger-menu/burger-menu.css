@@ -25,21 +25,6 @@
     margin: 0 auto;
 }
 
-.burger-menu__theme-changer {
-    border-top: 1px solid var(--grey-2);
-    border-bottom: 1px solid var(--grey-2);
-    padding: 28px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.burger-menu__theme-changer-title {
-    color: var(--grey-4);
-    font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
 
 .burger-menu__nav {
     padding-top: 24px;
