@@ -12,7 +12,6 @@
     line-height: 19px;
     text-align: center;
     color: var(--white);
-    transition: all 500ms ease;
 }
 
 .button_primary {
@@ -43,5 +42,11 @@
 
 .button_alternate:hover {
     border: 1px solid var(--black);
+
+}
+
+.button:active {
+    transform: translateY(1px);
+    transition: transform 2s ease-in-out;
 
 }
