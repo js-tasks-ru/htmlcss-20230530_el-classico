@@ -1,0 +1,62 @@
+.text-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+
+.text-field__label {
+    color: var(--grey-3);
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+
+.text-field__input {
+    border: 1px solid var(--grey-2);
+    padding: 17px 0 13px 24px;
+    color: var(--grey-4);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-field__input::placeholder {
+    color: var(--grey-2);
+}
+
+.text-field__input:focus {
+    border: 1px solid var(--primary);
+    outline: 0;
+    filter: drop-shadow(0px 1px 1px rgba(51, 154, 240, 0.10));
+}
+
+
+.text-field_success::before{
+    content: url(../../assets/images/check-circle.svg);
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 1;
+}
+
+.text-field_success > .text-field__input:focus{
+    border-color: green;
+}
+
+.text-field_error::before{
+    content: url(../../assets/images/alert-triangle.svg);
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 1;
+    
+}
+
+.text-field_error > .text-field__input{
+    border-color: var(--error);
+}
